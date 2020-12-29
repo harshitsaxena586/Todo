@@ -18,15 +18,18 @@
 }
 
 
-.output{ 
+.output{     
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
     resize: none;
     margin: auto;
     margin-top: 5rem;
-    padding: .5rem;
+    padding: 1rem;
     max-width: full;
     border: orangered;
-    height: 10rem;
+    height: auto;
     -webkit-box-shadow: 10px 10px 40px 10px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 40px 10px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 40px 10px rgba(0,0,0,0.75)
@@ -34,9 +37,12 @@
     -moz-border-radius: 27px 27px 27px 27px;
     -webkit-border-radius: 27px 27px 27px 27px;
     border: 0px solid #000000;
-    opacity: 50%;
+    
     text-emphasis: bold;
     align-self: center;
+
+    
+    
 }
 
 .placeholder{
