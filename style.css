@@ -1,11 +1,44 @@
 .input{
-    width: auto;
+    display: flex;
     resize: none;
+    margin: auto;
+    margin-top: 5rem;
+    padding: .5rem;
+    max-width: 500px;
+    border: orangered;
+    height: 2rem;
+    -webkit-box-shadow: 10px 10px 40px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 40px 10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 40px 10px rgba(0,0,0,0.75)
+    border-radius: 27px 27px 27px 27px;
+    -moz-border-radius: 27px 27px 27px 27px;
+    -webkit-border-radius: 27px 27px 27px 27px;
+    border: 0px solid #000000;
 
 }
 
-.shadow {
-    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
-    box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-  }
+
+.output{ 
+    display: flex;
+    resize: none;
+    margin: auto;
+    margin-top: 5rem;
+    padding: .5rem;
+    max-width: full;
+    border: orangered;
+    height: 10rem;
+    -webkit-box-shadow: 10px 10px 40px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 40px 10px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 40px 10px rgba(0,0,0,0.75)
+    border-radius: 27px 27px 27px 27px;
+    -moz-border-radius: 27px 27px 27px 27px;
+    -webkit-border-radius: 27px 27px 27px 27px;
+    border: 0px solid #000000;
+    opacity: 50%;
+    text-emphasis: bold;
+    align-self: center;
+}
+
+.placeholder{
+    text-align: center;
+}
