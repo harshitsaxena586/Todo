@@ -22,7 +22,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    
+    justify-content: center;
     resize: none;
     margin: auto;
     margin-top: 5rem;
@@ -43,6 +43,11 @@
 
     
     
+}
+.item{
+    max-width:500px; 
+    margin: .5rem;
+    -webkit-border-radius: 25px ;
 }
 
 .placeholder{
