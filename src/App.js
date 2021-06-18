@@ -12,7 +12,7 @@ function App() {
     dispatch({ type: "CLEAR" });
 
     localStorage.clear();
-    window.localStorage.reload();
+    window.location.reload();
   }
   return (
     <div className="App">
